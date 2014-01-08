@@ -26,8 +26,8 @@ public class PostNewAdPage extends AbstractPageObject {
 
         driver.get("http://slando.ua/myaccount/");
 
-        getElement(USER_EMAIL_INPUT).sendKeys("bukinist64@gmail.com");
-        getElement(USER_PASS_INPUT).sendKeys("zSi1989j");
+        getElement(USER_EMAIL_INPUT).sendKeys("");
+        getElement(USER_PASS_INPUT).sendKeys("");
         getElement(USER_LOGINE_BUTTON).click();
 
         getElement(POST_NEW_ADVERT_BUTTON).click();
